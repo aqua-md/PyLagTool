@@ -1,0 +1,10 @@
+customtkinter==5.2.2
+darkdetect==0.8.0
+evdev==1.9.3
+packaging==26.0
+psutil==7.2.2
+PyMemoryEditor==1.6.0
+pynput==1.8.1
+python-xlib==0.33
+six==1.17.0
+tk==0.1.0

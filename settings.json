@@ -1,0 +1,7 @@
+{
+    "GameFile":"GameJSON/Rehydrated.json",
+    "GameVersion":"604909",
+    "MinFPS":2,
+    "MaxFPS":60,
+    "Hotkey":"caps_lock"
+}
