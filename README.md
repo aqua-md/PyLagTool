@@ -1,6 +1,6 @@
 ## **USECASE**
 
-Writes to memory addresses of a given executable to limit a UE4 game's framerate to cause lag on a Linux system. 
+Writes to memory addresses of a given executable to limit a UE4 game's framerate to cause lag
 
 The program finds the executable name and memory address from a file in the GameJSON folder
 
