@@ -32,5 +32,6 @@ Project based on [GordoLagTool](https://github.com/GordoLeal/GordoLagTool).
 
 Creating a GameJSON is done in a similar way to creating a .game file (setting the FrameRateLimit value in the game's 'GameUserSettings.ini' to a large number (eg: 123456.0), except by using the program [GameConqueror](https://github.com/scanmem/scanmem) instead of CheatEngine. 
 
+This ini file is in wine/proton's virtual C drive. For a Steam game/shortcut it's under steamapps/compatdata/(*Steam app ID)/pfx/drive_c/users/steamuser/AppData/Local/(Game Folder)/Saved/Config/WindowsNoEditor/GameUserSettings.ini
 
-
+For non Steam shortcuts the app ID appears to be a random 10 digit number
