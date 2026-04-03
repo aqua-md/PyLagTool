@@ -1,9 +1,11 @@
-USECASE
+## **USECASE**
 
 Writes to memory addresses of a given executable to limit a UE4 game's framerate to cause lag. 
 
+The program finds the executable name and memory address from a file in the GameJSON folder
 
-INSTALLATION
+
+## **INSTALLATION**
 
 To use this program, download the code as a zip and extract it.
 
