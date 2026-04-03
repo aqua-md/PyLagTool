@@ -34,4 +34,6 @@ Creating a GameJSON is done in a similar way to creating a .game file (setting t
 
 This ini file is in wine/proton's virtual C drive. For a Steam game/shortcut it's under steamapps/compatdata/(*Steam app ID)/pfx/drive_c/users/steamuser/AppData/Local/(Game Folder)/Saved/Config/WindowsNoEditor/GameUserSettings.ini
 
+GameJSON files appear to be tied to Proton version. The ones in the initial repository are for proton-10-cachyOS (will get the exact name later)
+
 For non Steam shortcuts the app ID appears to be a random 10 digit number
