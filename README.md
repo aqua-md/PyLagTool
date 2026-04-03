@@ -1,6 +1,6 @@
 ## **USECASE**
 
-Writes to memory addresses of a given executable to limit a UE4 game's framerate to cause lag. 
+Writes to memory addresses of a given executable to limit a UE4 game's framerate to cause lag on a Linux system. 
 
 The program finds the executable name and memory address from a file in the GameJSON folder
 
@@ -11,7 +11,7 @@ The program finds the executable name and memory address from a file in the Game
 
 - Open a terminal window in that folder
 
-- install the necessary packages with (ideally in a [virtual environment]([url](https://docs.python.org/3/library/venv.html))):
+- install the necessary packages with (ideally in a [virtual environment](https://docs.python.org/3/library/venv.html)):
 ```
 pip install -r requirements.txt
 ```
@@ -27,10 +27,10 @@ python ./GUI.py
 ## **ADDITIONAL INFO**
 
 
-Project based on [GordoLagTool]([url](https://github.com/GordoLeal/GordoLagTool)). 
+Project based on [GordoLagTool](https://github.com/GordoLeal/GordoLagTool). 
 
 
-Creating a GameJSON is done in a similar way to creating a .game file (setting the FrameRateLimit value in the game's 'GameUserSettings.ini' to a large number (eg: 123456.0), except by using the program [GameConqueror]([url](https://github.com/scanmem/scanmem)) instead of CheatEngine. 
+Creating a GameJSON is done in a similar way to creating a .game file (setting the FrameRateLimit value in the game's 'GameUserSettings.ini' to a large number (eg: 123456.0), except by using the program [GameConqueror](https://github.com/scanmem/scanmem) instead of CheatEngine. 
 
 
 
